@@ -1,0 +1,74 @@
+body { /* Styles for the body element */
+    font-family: Arial, sans-serif; /* Set the font family to Arial with a fallback to sans-serif */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('IIUC_transport.jpeg'); /* Set a background image with a gradient overlay */
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: #fff; /* Set text color to white for better contrast */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+    text-align: center; /* Center-align text */
+}
+
+form { /* Styles for the form element */
+    margin-bottom: 20px; /* Add space below the form */
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background */
+    padding: 15px; /* Add padding inside the form */
+    border-radius: 8px; /* Round the corners of the form */
+    display: inline-block; /* Allow the form to fit its content */
+    text-align: left; /* Left-align text inside the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+form input, form button { /* Styles for input fields and buttons within the form */
+    margin: 5px 0; /* Add vertical margin */
+    padding: 10px; /* Add padding inside the input fields and buttons */
+    width: calc(100% - 22px); /* Set width to fill the container, accounting for padding */
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 5px; /* Round the corners of the input fields and buttons */
+}
+
+form button { /* Styles specifically for the button element */
+    background-color: #007bff; /* Set the background color to a blue shade */
+    color: white; /* Set text color to white */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+form button:hover { /* Styles for the button when hovered */
+    background-color: #0056b3; /* Darken the background color on hover */
+}
+
+table { /* Styles for the table element */
+    width: 100%; /* Set the table width to fill the container */
+    border-collapse: collapse; /* Collapse borders into a single border */
+    margin-top: 20px; /* Add space above the table */
+    background-color: rgba(255, 255, 255, 0.9); /* Set a light background for better readability */
+    border-radius: 8px; /* Round the corners of the table */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+th, td { /* Styles for table header and data cells */
+    border: 1px solid #ddd; /* Add a light gray border */
+    padding: 8px; /* Add padding inside cells */
+    text-align: left; /* Left-align text in cells */
+}
+
+th { /* Styles specifically for table header cells */
+    background-image: linear-gradient(to right, #4caf50, #81c784); /* Set a gradient background for header */
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Make header text bold */
+    text-transform: uppercase; /* Transform header text to uppercase */
+    font-size: 14px; /* Set font size for header */
+}
+
+td { /* Styles specifically for table data cells */
+    color: #333; /* Set text color to dark gray */
+    font-size: 14px; /* Set font size for data cells */
+}
+
+thead tr { /* Styles for the table header row */
+    border-bottom: 2px solid #4caf50; /* Add a stronger border for better distinction */
+}
